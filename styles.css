@@ -96,7 +96,7 @@ button {
 .text {
     display: flex;
     flex-direction: column;
-    width:70%;
+    width:60%;
     justify-content: center;
     align-items: flex-start;
     row-gap: 10px;
@@ -104,14 +104,70 @@ button {
 
 }
 
+.main {
+    display: flex;
+    justify-content: stretch;
+    width: 60%;
+}
 
 .main img{
-    width: 700px;
-    height: 300px;
+    max-width: 100%;
+    height: auto;
+    flex: 1;
+ 
+
 
 }
 
-.main {
-    flex: 0 1 auto;
+
+
+.information {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 45px;
+    padding-bottom: 100px;
+}
+
+.title {
+    font-weight:900;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.cardspace {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    column-gap: 15px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    padding-left: auto;
+    padding-right: auto;
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+    flex: 0 0 10%;
+
+}
+
+.cards img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.cards p {
+    font-size: 18px;
+    text-align: center;
 }
 
